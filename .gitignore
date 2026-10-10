@@ -1,0 +1,15 @@
+# Environments & Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# Large datasets & raw PyTorch weights (>50MB)
+*.zip
+*.tar.gz
+uhcs_data/
+*.pt
+*.pth
+
+# OS artifacts
+.DS_Store
